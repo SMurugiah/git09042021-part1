@@ -1,3 +1,30 @@
 
 git learning revisit 09-04-2021
 
+<-- Login steps to github from git bash -->
+  git config --global user.email "you@example.com"  (OR)
+  git config --global user.name "Your Name"
+<-- when we push the code to github.. we will get pop-UP to signin to verify identity-->
+
+how to start git every time basic steps
+---------------------------------------
+
+https://github.com/SMurugiah/git09042021-part1.git
+
+*********** Approach 1 **************************
+	Create a repository in Git and Clone to local
+			------------------------
+login may not require at this time <-- but need login before commit-- either do it as soon opening git bash or before commiting>(github login credentials )
+1. Create a repo in github
+2. access gitbash from computer and create a folder in anylocation
+3. git clone path optionalDirectoryName
+	ex: git clone https://github.com/SMurugiah/git09042021-part1.git gitlearn090421
+4. start creating or adding files
+5. use the following commands to perform basic git operations- Definitions for each command given EOF
+	git clone
+	git status
+	git add filename (its called staging)
+			<-- this is when we need login -- either do it as soon opening git bash or before commiting>
+	git commit -m "enter notes or message"	(this is when we push to github login auth might required refer above)
+	git push
+		-------- <with this we successfully pushed the code to github -------
